@@ -4,15 +4,6 @@ Este projeto é um site educativo e informativo sobre Reservas Naturais, desenvo
 
 O site é totalmente responsivo, com um design moderno e visualmente agradável, utilizando **HTML, CSS e JavaScript**, sem dependência de frameworks ou bibliotecas externas. Ele apresenta um tema claro com tons de verde e cinza, remetendo à natureza, e inclui animações suaves, rolagem fluida e navegação intuitiva.
 
-## Características do Site
-
-- **Totalmente responsivo**
-- **Design moderno** com tema claro em tons de verde e cinza
-- **HTML, CSS e JavaScript puro**, sem frameworks
-- **Animações suaves** e rolagem fluida
-- **Navegação intuitiva**
-
-
 ## Funcionalidades
 
 - **Header fixo** com logo estilizado e navegação principal
