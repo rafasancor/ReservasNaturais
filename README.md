@@ -5,7 +5,6 @@
 Este projeto é um site educativo e informativo sobre **Reservas Naturais**, desenvolvido por estudantes da **Universidade Positivo** em parceria com a **RPPN Encontro das Águas** para a matéria de **Pesquisa Aplicada e Meio Ambiente.** O site tem como objetivo promover a conscientização sobre a importância das reservas naturais, com foco nas **Reservas Particulares do Patrimônio Natural (RPPNs)** e nas tecnologias que auxiliam sua preservação.
 
 O site é totalmente responsivo, com um design moderno e visualmente agradável, utilizando **HTML, CSS e JavaScript**, sem dependência de frameworks ou bibliotecas externas. Ele apresenta um tema claro com tons de verde e cinza, remetendo à natureza, e inclui animações suaves, rolagem fluida e navegação intuitiva.
----
 
 ## Características do Site
 
@@ -15,7 +14,6 @@ O site é totalmente responsivo, com um design moderno e visualmente agradável,
 - **Animações suaves** e rolagem fluida
 - **Navegação intuitiva**
 
----
 
 ## Funcionalidades
 
@@ -30,7 +28,6 @@ O site é totalmente responsivo, com um design moderno e visualmente agradável,
 - **Footer** com links âncora e copyright
 - **Responsividade completa** para desktops, tablets e smartphones
 
----
 
 ## Autores
 
