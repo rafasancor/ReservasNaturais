@@ -56,9 +56,13 @@
   #banner {
     background-color: #2e7d32;
     color: white;
-    padding: 2rem 1rem;
+    padding: 6rem 1rem;
     text-align: center;
     margin-top: 10vh;
+    margin-bottom: 0px;
+    background-image: url(../img/foto_drones_floresta.png);
+    background-position: top;
+    background-size: cover;
   }
   
   #banner h1 {
@@ -69,12 +73,13 @@
   #banner p {
     font-size: 1.2rem;
   }
-  
-  /* Seções principais */
+
+/* Seções principais */
   main {
     padding: 2rem 1rem;
     max-width: 1000px;
     margin: auto;
+    margin-top: 0px;
   }
   
   section {
@@ -83,4 +88,13 @@
   
   h2 {
     color: #2e7d32;
+  }
+
+  #beneficios > ul{
+    margin-left: 2.5vh;
+  }
+
+  iframe{
+    width: 100%;
+    margin-top: 2vh;
   }
