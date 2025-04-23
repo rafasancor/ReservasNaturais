@@ -98,3 +98,15 @@
     width: 100%;
     margin-top: 2vh;
   }
+
+  #bigData_noticia{
+    border-radius: 12px;
+    width: 1000px;
+    height: 420px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+
+  #bigData_noticia:hover{
+    transform: scale(1.05);
+  }
