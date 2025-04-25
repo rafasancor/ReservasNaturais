@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f4;
+    scroll-behavior: smooth;
+}
+  
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+    font-family: "Arvo", serif;
+}
+
+nav a {
+    color: #2e7d32;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+/* Sessão Main */
+section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Cores das sessões */
+#intro {
+    margin-top: 1rem;
+    background: #ffffff;
+}
+
+#rppn {
+    background: #f1f7f1;
+}
+
+#tech {
+    background:#FFFFFF;
+}
+
+.banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 45%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: "Arvo", serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgb(45, 59, 48);
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+/* Sessão Intro */
+.intro-content {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.intro-text p {
+    margin-bottom: 1rem;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+p.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}
+
+/* Botão de voltar ao topo */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #4caf50;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+#back-to-top:hover {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: #a5d6a7;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #intro {
+        margin-top: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav a {
+        margin: 0 0.5rem;
+    }
+
+    section {
+        padding: 5rem 1rem;
+    }
+
+    .banner {
+        max-height: 300px;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .intro-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #intro {
+        margin-top: 4rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+}
