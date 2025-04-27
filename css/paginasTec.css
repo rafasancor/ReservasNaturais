@@ -173,3 +173,21 @@
   padding: 2rem 1rem;
   background-color: #f4f4f4;
 }
+
+/* Footer */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #a5d6a7;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+footer a:hover {
+  color: white;
+}
