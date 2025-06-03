@@ -1,83 +1,281 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="../css/paginasTec.css" />
-  <title>Colar de Telemetria Satelital</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/paginasTec.css" />
+    <title>Colar de Telemetria Satelital</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <!-- Importação de ícone da logo -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=forest"
+    />
+    <!-- Importação de fonte h2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Importação de fonte h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo" class="lilita-one-regular">
+        Reservas Naturais
+        <span class="material-symbols-outlined">eco</span>
+      </div>
+      <nav>
+        <a href="#intro">Importância</a>
+        <a href="#rppn">RPPN</a>
+        <a href="#tech">Tecnologias</a>
+      </nav>
+    </header>
 
-  <header>
-    <div class="logo" class="lilita-one-regular">
-      Reservas Naturais
-      <span class="material-symbols-outlined">eco</span>
-    </div>
-    <nav>
-      <a href="#intro">Importância</a>
-      <a href="#rppn">RPPN</a>
-      <a href="#tech">Tecnologias</a>
-    </nav>
-  </header>
-
-  <section id="bannerirrigacao">
-    <h1>Colar de Telemetria Satelital</h1>
-    <p>Monitoramento remoto e eficaz da fauna silvestre.</p>
-  </section>
-
-  <section id="bannerFoto"></section>
-
-  <main>
-
-    <section id="introducao">
-      <h2>O que é um Colar de Telemetria Satelital?</h2>
-      <p>É um dispositivo eletrônico acoplado ao animal que permite o monitoramento remoto de sua localização e comportamento, utilizando tecnologias como GPS e comunicação via satélite.</p>
+    <section id="bannerirrigacao">
+      <h1>Colar de Telemetria Satelital</h1>
+      <p>Monitoramento remoto e eficaz da fauna silvestre.</p>
     </section>
 
-    <section id="beneficiosTec9">
-      <h2>Benefícios para Reservas Naturais - Colar Satelital</h2>
-      <ul>
-        <li>Monitoramento constante dos movimentos de animais selvagens</li>
-        <li>Estudos detalhados sobre migrações e comportamentos</li>
-        <li>Promoção de ações de conservação mais eficazes</li>
-        <li>Redução do impacto humano sobre espécies em risco</li>
-      </ul>
-    </section>
+    <section id="bannerFoto"></section>
 
-    <section id="funcionamento">
-      <h2>Como Funciona?</h2>
-      <p>O colar coleta dados de localização por GPS e os transmite periodicamente via satélite para os pesquisadores. Alguns modelos também incluem sensores adicionais, como acelerômetros, para monitorar a atividade do animal. Muitos colares possuem mecanismos de liberação automática após um período pré-determinado, facilitando a recuperação do dispositivo sem a necessidade de recaptura do animal.</p>
-    </section>
+    <main>
+      <section id="introducao">
+        <h2>O que é um Colar de Telemetria Satelital?</h2>
+        <p>
+          É um dispositivo eletrônico acoplado ao animal que permite o
+          monitoramento remoto de sua localização e comportamento, utilizando
+          tecnologias como GPS e comunicação via satélite.
+        </p>
+      </section>
 
-    <section id="beneficios">
-      <h2>Benefícios para a Pesquisa e Conservação</h2>
-      <p>Esses colares permitem o acompanhamento detalhado dos movimentos e comportamentos dos animais em seu habitat natural, fornecendo dados essenciais para estudos ecológicos, identificação de áreas críticas para conservação e avaliação do impacto de atividades humanas sobre a fauna.</p>
-    </section>
+      <section id="beneficiosTec9">
+        <h2>Benefícios para Reservas Naturais - Colar Satelital</h2>
+        <ul>
+          <li>Monitoramento constante dos movimentos de animais selvagens</li>
+          <li>Estudos detalhados sobre migrações e comportamentos</li>
+          <li>Promoção de ações de conservação mais eficazes</li>
+          <li>Redução do impacto humano sobre espécies em risco</li>
+        </ul>
+      </section>
 
-    <section id="exemplosTec10">
-      <h2>Exemplos de Uso</h2>
-      <h3>Monitoramento Ambiental em Tempo Real</h3>
-      <p><strong>Uso:</strong> Rede de sensores LoRaWAN instalados em diferentes pontos da reserva para coletar informações sobre temperatura, umidade e presença humana.</p>
-      <p><strong>Benefícios:</strong> Resposta rápida a mudanças ambientais e vigilância contínua sem consumo excessivo de energia ou necessidade de rede celular.</p>
-    </section>
+      <section id="funcionamento">
+        <h2>Como Funciona?</h2>
+        <p>
+          O colar coleta dados de localização por GPS e os transmite
+          periodicamente via satélite para os pesquisadores. Alguns modelos
+          também incluem sensores adicionais, como acelerômetros, para monitorar
+          a atividade do animal. Muitos colares possuem mecanismos de liberação
+          automática após um período pré-determinado, facilitando a recuperação
+          do dispositivo sem a necessidade de recaptura do animal.
+        </p>
+      </section>
 
-    <section id="cta">
-      <h2>Quer saber mais?</h2>
-      <p>Entre em contato com especialistas ou acesse nossos materiais sobre tecnologia e meio ambiente.</p>
-      <a href="#formulario">Fale com a gente</a>
-    </section>
+      <section id="beneficios">
+        <h2>Benefícios para a Pesquisa e Conservação</h2>
+        <p>
+          Esses colares permitem o acompanhamento detalhado dos movimentos e
+          comportamentos dos animais em seu habitat natural, fornecendo dados
+          essenciais para estudos ecológicos, identificação de áreas críticas
+          para conservação e avaliação do impacto de atividades humanas sobre a
+          fauna.
+        </p>
+      </section>
 
-  </main>
+      <section id="exemplosTec10">
+        <h2>Exemplos de Uso</h2>
+        <h3>Monitoramento Ambiental em Tempo Real</h3>
+        <p>
+          <strong>Uso:</strong> Rede de sensores LoRaWAN instalados em
+          diferentes pontos da reserva para coletar informações sobre
+          temperatura, umidade e presença humana.
+        </p>
+        <p>
+          <strong>Benefícios:</strong> Resposta rápida a mudanças ambientais e
+          vigilância contínua sem consumo excessivo de energia ou necessidade de
+          rede celular.
+        </p>
+      </section>
 
-  <footer>
-    <p>© 2025 Reservas Naturais. Todos os direitos reservados.</p>
-    <div>
-      <a href="#intro">Importância</a>
-      <a href="#rppn">RPPN</a>
-      <a href="#tech">Tecnologias</a>
-    </div>
-  </footer>
+      <section id="cta">
+        <h2>Quer saber mais?</h2>
+        <p>
+          Entre em contato com especialistas ou acesse nossos materiais sobre
+          tecnologia e meio ambiente.
+        </p>
+        <a href="#formulario">Fale com a gente</a>
+      </section>
 
-</body>
+      <section id="custos-e-custo-beneficio-colar-satelital">
+        <h2>Custos e Custo-Benefício dos Colares de Telemetria Satelital</h2>
+        <p>
+          Os colares de telemetria via satélite são uma das ferramentas mais
+          avançadas para entender a vida dos animais selvagens em seu habitat.
+          Eles nos permitem acompanhar os bichos de longe, em tempo real, sem
+          precisar ir atrás deles o tempo todo. Essa tecnologia é poderosa, mas
+          também tem um custo mais elevado. Vamos detalhar os gastos envolvidos
+          e as formas de otimizar esse investimento:
+        </p>
+
+        <h3>O Colar (O Dispositivo em Si)</h3>
+        <p>
+          Este é o principal investimento. Os colares de telemetria satelital
+          são equipamentos de alta tecnologia, feitos para resistir a condições
+          extremas e funcionar por longos períodos:
+        </p>
+        <ul>
+          <li>
+            <strong>Colares Padrão:</strong> Para animais de médio e grande
+            porte, com bateria que dura de 1 a 3 anos. O preço de cada colar
+            pode variar de **R$ 15.000 a R$ 40.000**, dependendo do modelo, da
+            vida útil da bateria e dos sensores adicionais (como acelerômetro).
+          </li>
+          <li>
+            <strong
+              >Colares para Animais Menores ou com Recursos Específicos:</strong
+            >
+            Dispositivos mais leves, com baterias mais curtas ou com recursos
+            específicos para aves ou mamíferos menores. Podem custar de **R$
+            5.000 a R$ 15.000**.
+          </li>
+          <li>
+            <strong>Colares com Mecanismo de Soltura Automática:</strong> Muitos
+            modelos mais caros vêm com um sistema que permite que o colar se
+            solte sozinho após um tempo, evitando que o animal precise ser
+            recapturado para removê-lo. Esse recurso agrega valor, mas também
+            custo ao colar.
+          </li>
+        </ul>
+        <h4>Alternativas com Melhor Custo-Benefício para o Colar:</h4>
+        <ul>
+          <li>
+            <strong>Planeje a Duração do Estudo:</strong> Escolha colares com a
+            vida útil de bateria exata que você precisa para o seu estudo. Um
+            colar com bateria para 3 anos será mais caro que um para 1 ano, mas
+            pode valer a pena se a pesquisa for de longo prazo e evitar custos
+            de novas recapturas.
+          </li>
+          <li>
+            <strong>Sem Recurso de Soltura:</strong> Se o orçamento for muito
+            apertado e a recaptura do animal for viável e segura, optar por
+            colares sem o sistema de soltura automática pode gerar uma economia
+            no custo inicial.
+          </li>
+        </ul>
+
+        <h3>Serviços de Comunicação Via Satélite</h3>
+        <p>
+          Para que o colar envie os dados para você, ele precisa de uma "linha"
+          de comunicação via satélite. Isso não é como um chip de celular comum
+          e tem um custo à parte:
+        </p>
+        <ul>
+          <li>
+            <strong>Planos de Dados Satelitais:</strong> São pagos mensalmente
+            ou anualmente e dependem da frequência com que o colar envia os
+            dados (ex: a cada hora, a cada 6 horas, uma vez por dia). O custo
+            pode variar de **R$ 100 a R$ 800 por colar por mês**, ou de **R$
+            1.200 a R$ 9.600 por colar por ano**. Quanto mais frequente o envio,
+            mais caro.
+          </li>
+        </ul>
+        <h4>
+          Alternativas com Melhor Custo-Benefício para os Serviços de
+          Comunicação:
+        </h4>
+        <ul>
+          <li>
+            <strong>Otimize a Frequência de Envio:</strong> Se você não precisa
+            de dados a cada hora, programe o colar para enviar a cada 6 ou 12
+            horas. Isso reduz drasticamente o consumo de bateria e o custo
+            mensal do serviço satelital.
+          </li>
+          <li>
+            <strong>Transmissão em Lotes (Burst Transmissions):</strong> Alguns
+            colares podem acumular dados por um tempo e enviar tudo de uma vez
+            em um "pacote" menor e mais barato.
+          </li>
+        </ul>
+
+        <h3>Logística de Campo e Mão de Obra</h3>
+        <p>
+          Colocar o colar no animal é um processo que exige conhecimento,
+          segurança e logística, gerando custos importantes:
+        </p>
+        <ul>
+          <li>
+            <strong>Captura e Imobilização do Animal:</strong> A equipe precisa
+            de biólogos, veterinários e técnicos especializados. Isso envolve
+            custos com deslocamento, equipamentos de captura (armadilhas, dardos
+            tranquilizantes), medicamentos e toda a segurança para a equipe e o
+            animal. Pode variar de **R$ 3.000 a R$ 15.000 ou mais por animal**,
+            dependendo da espécie, do local e da dificuldade da captura.
+          </li>
+          <li>
+            <strong>Licenças e Autorizações:</strong> Obter as permissões
+            necessárias dos órgãos ambientais (como ICMBio e IBAMA no Brasil)
+            também envolve tempo e, às vezes, taxas.
+          </li>
+          <li>
+            <strong>Software de Análise de Dados:</strong> Além dos custos de
+            acesso aos dados (geralmente incluídos na plataforma do provedor do
+            colar), você pode precisar de softwares específicos para análises
+            mais aprofundadas dos movimentos.
+          </li>
+        </ul>
+        <h4>
+          Alternativas com Melhor Custo-Benefício para Logística e Mão de Obra:
+        </h4>
+        <ul>
+          <li>
+            <strong>Parcerias com Universidades e Pesquisadores:</strong> Muitas
+            equipes de pesquisa já têm experiência e equipamentos para captura e
+            manejo de fauna, podendo ser parceiras em projetos. Isso pode
+            reduzir os custos de mão de obra e logística.
+          </li>
+          <li>
+            <strong>Aproveite Projetos Existentes:</strong> Se já houver um
+            projeto de captura ou monitoramento na área, você pode aproveitar a
+            estrutura existente para reduzir seus custos.
+          </li>
+          <li>
+            <strong>Colares com Soltura Programada:</strong> Embora o colar
+            inicial seja mais caro, o mecanismo de soltura automática elimina a
+            necessidade de recapturar o animal para remover o colar, gerando uma
+            economia enorme em tempo e mão de obra a longo prazo.
+          </li>
+        </ul>
+        <p>
+          Em resumo, o investimento em colares de telemetria satelital é alto,
+          com um custo inicial que pode ir de **R$ 5.000 a mais de R$ 40.000 por
+          colar**, além dos custos mensais/anuais de comunicação e os gastos com
+          a operação de campo. No entanto, a informação detalhada e em tempo
+          real que essa tecnologia proporciona sobre os movimentos,
+          comportamento e habitat de espécies ameaçadas é **inestimável para a
+          conservação**. Ela permite que os gestores de reservas e pesquisadores
+          tomem decisões rápidas e eficazes para proteger a fauna, justificando
+          o investimento pela relevância dos dados e o impacto na preservação.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Reservas Naturais. Todos os direitos reservados.</p>
+      <div>
+        <a href="#intro">Importância</a>
+        <a href="#rppn">RPPN</a>
+        <a href="#tech">Tecnologias</a>
+      </div>
+    </footer>
+  </body>
 </html>
